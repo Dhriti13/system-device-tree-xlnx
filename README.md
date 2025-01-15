@@ -74,8 +74,8 @@ For different platforms, extracted files are:
       - psu_inits (.c, .h, .tcl etc)
       - bitstream(.bit)
    * Versal:
-     * PDI (.pdi)
-     * a folder named "extracted" that contains:
+     - PDI (.pdi)
+     - A folder named "extracted" that contains:
 	  - ELFs like plm, psm
 	  - CDOs like lpd, fpd, pmc_data etc.
 	  - bif file that can re-construct the PDI using above artifacts
