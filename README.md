@@ -62,10 +62,10 @@ The generated system device tree contains following files.
 	pcw.dtsi:	which contains peripheral configuration wizard information
 			of the peripherals.
 
-Apart from the dtsi files and system-top.dts, system device tree output directory also contains some
-files that are needed to configure the hardware. These files are available within XSA and are extracted
-as they are, using hsi::open_hw_design. The call to hsi::open_hw_design command is wrapped within
-generate_sdt.
+Apart from the dtsi files and system-top.dts, system device tree output directory also contains
+some files that are needed to configure the hardware. These files are available within XSA and
+are extracted as they are, using hsi::open_hw_design. The call to hsi::open_hw_design command
+is wrapped within generate_sdt.
 
 For different platforms, extracted files are:
    * Microblaze / Microblaze RISCV:
